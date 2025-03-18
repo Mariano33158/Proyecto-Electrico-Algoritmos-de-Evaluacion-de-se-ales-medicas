@@ -17,4 +17,4 @@ def txt_to_excel(txt_filename):
     print(f"Datos guardados en '{excel_filename}'")
 
 # Ejemplo de uso
-txt_to_excel('School-La-Riviera_waveform.txt')
+txt_to_excel('C:\\Users\\maria\\Proyecto Electrico DUMA\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\School-La-Riviera_waveform.txt')

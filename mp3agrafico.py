@@ -35,4 +35,4 @@ def plot_audio_waveform(filename):
     plt.show()
 
 # Ejemplo de uso
-plot_audio_waveform('School-La-Riviera.mp3')
+plot_audio_waveform('C:\\Users\\maria\\Proyecto Electrico DUMA\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\School-La-Riviera.mp3')
