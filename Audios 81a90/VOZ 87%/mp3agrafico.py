@@ -45,5 +45,5 @@ def plot_audio_waveform(filename):
 #)
 
 # Ejemplo de uso
-plot_audio_waveform('C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 31a40\\VOZ 40%\\Voz40.mp3')
+plot_audio_waveform('C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 81a90\\VOZ 87%\\Voz87.mp3')
 
