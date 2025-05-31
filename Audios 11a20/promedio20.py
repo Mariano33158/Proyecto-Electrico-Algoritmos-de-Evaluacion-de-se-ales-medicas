@@ -3,16 +3,16 @@ import pandas as pd
 
 # Lista con las rutas exactas de tus 10 archivos TXT
 archivos = [
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 11%\Voz11_waveform.txt',
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 12%\Voz12_waveform.txt',
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 13%\Voz13_waveform.txt',
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 14%\Voz14_waveform.txt',
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 15%\Voz 15_waveform.txt',
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 16%\Voz16_waveform.txt',
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 17%\Voz17_waveform.txt',
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 18%\Voz18_waveform.txt',
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 19%\Voz19_waveform.txt',
-    r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Audios 11a20\VOZ 20%\Voz20_waveform.txt'
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 11%\\Voz11_waveform.txt',
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 12%\\Voz12_waveform.txt',
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 13%\\Voz13_waveform.txt',
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 14%\\Voz14_waveform.txt',
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 15%\\Voz 15_waveform.txt',
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 16%\\Voz16_waveform.txt',
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 17%\\Voz17_waveform.txt',
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 18%\\Voz18_waveform.txt',
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 19%\\Voz19_waveform.txt',
+    r'C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 11a20\\VOZ 20%\\Voz20_waveform.txt'
 ]
 
 # Leer todos los archivos y almacenar sus datos en una lista
