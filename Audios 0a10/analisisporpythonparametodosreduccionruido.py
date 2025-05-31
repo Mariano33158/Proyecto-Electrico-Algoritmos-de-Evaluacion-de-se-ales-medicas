@@ -5,7 +5,7 @@ from matplotlib.widgets import CheckButtons
 import pywt
 
 # Cargar los datos del archivo
-file_path = "C:/Users/maria/Proyecto Electrico DUMA/Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas/Audios 0a10/resultado_promedio.txt"
+file_path = "C:\\Users\\usuario\\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 0a10\\resultado_promedio.txt"
 data = pd.read_csv(file_path, delimiter="\t")
 
 # Renombrar columnas si es necesario
