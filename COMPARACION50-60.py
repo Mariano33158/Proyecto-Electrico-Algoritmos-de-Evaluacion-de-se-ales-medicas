@@ -8,7 +8,7 @@ import pywt
 # ————————————————
 # 1. Definir rutas de los dos archivos de texto
 # ————————————————
-file_path1 = 'C:\\Users\\maria\\Proyecto Electrico DUMA\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 41a50\\VOZ 50%\Voz50_waveform.txt'
+file_path1 = 'C:\\Users\\maria\\Proyecto Electrico DUMA\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 21a30\\VOZ 30%\\Voz30_waveform.txt'
 file_path2 = 'C:\\Users\\maria\\Proyecto Electrico DUMA\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 51a60\\VOZ 60%\\Voz60_waveform.txt'
 
 # ————————————————
