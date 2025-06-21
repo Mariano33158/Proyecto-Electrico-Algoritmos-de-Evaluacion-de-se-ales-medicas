@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import hilbert
 
-# 1. Ruta al archivo (ajusta a tu ruta real)
+# 1. Ruta al archivo 
 file_path = r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Envolventes\Voz40_waveform.txt'
 
 # 2. Cargar datos, saltando la primera fila de encabezado
@@ -11,7 +11,7 @@ t = data[:, 0]
 x = data[:, 1]
 
 # 3. Filtrado de media móvil para reducción de ruido
-window_size = 11  # número de muestras de la ventana (ajústalo según necesites)
+window_size = 11  # número de muestras de la ventana 
 kernel = np.ones(window_size) / window_size
 x_smooth = np.convolve(x, kernel, mode='same')
 

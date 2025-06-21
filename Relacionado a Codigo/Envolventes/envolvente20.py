@@ -2,11 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import hilbert
 
-# 1. Ruta al archivo (ajusta a tu ruta real)
+# 1. Ruta al archivo 
 file_path = r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Envolventes\Voz20_waveform.txt'
 
 # 2. Cargar datos, saltando la primera fila de encabezado
-data = np.loadtxt(file_path, skiprows=1)  # añade delimiter=',' o '\t' si tu archivo lo requiere
+data = np.loadtxt(file_path, skiprows=1)  
 
 t = data[:, 0]   # tiempo en segundos
 x = data[:, 1]   # amplitud

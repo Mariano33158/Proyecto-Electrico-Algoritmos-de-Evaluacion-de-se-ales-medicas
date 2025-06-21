@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import hilbert, medfilt
 
-# 1. Ruta al archivo (ajusta a tu ruta real)
+# 1. Ruta al archivo 
 file_path = r'C:\Users\maria\Proyecto Electrico DUMA\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\Envolventes\Voz 10_10_waveform.txt'
 
 # 2. Cargar datos, saltando la primera fila de encabezado
@@ -11,7 +11,7 @@ t = data[:, 0]
 x = data[:, 1]
 
 # 3. Filtrado de mediana para reducción de ruido
-window_size = 11             # debe ser impar; ajusta según necesites
+window_size = 11             # debe ser impar; 
 x_smooth = medfilt(x, window_size)
 
 # 4. Cálculo de la envolvente sobre la señal filtrada por mediana
