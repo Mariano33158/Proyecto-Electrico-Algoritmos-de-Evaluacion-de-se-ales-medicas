@@ -1,3 +1,15 @@
+#Universidad de Costa Rica
+#Escuela de Ingeniería Eléctrica
+#Proyecto Eléctrico (IE0499)
+
+#Evaluación de algoritmos de procesamiento de
+#señales para validación de instrumentación
+#biomédica
+
+#Mariano Segura (C17416)
+#Kevin Aguilar (B70131)
+
+
 
 import numpy as np
 import pandas as pd
@@ -7,16 +19,8 @@ import pywt
 # --- PARTE 1: Ensemble Averaging (Promedio de señales) ---
 
 archivos = [
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 91%\\Voz91_waveform.txt',
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 92%\\Voz92_waveform.txt',
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 93%\\Voz93_waveform.txt',
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 94%\\Voz94_waveform.txt',
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 95%\\Voz95_waveform.txt',
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 96%\\Voz96_waveform.txt',
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 97%\\Voz97_waveform.txt',
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 98%\\Voz98_waveform.txt',
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 99%\\Voz99_waveform.txt',
-    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Audios 91a100\\VOZ 100%\\Voz100_waveform.txt'
+    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Relacionado a Codigo\\Audios 61a70\\VOZ 61%\\Voz61_waveform.txt',
+    r'C:\\Users\\usuario\Desktop\\UCR\\I-25\\Proyecto eléctrico\\REPOSITORIO_CODES\\Proyecto-Electrico-Algoritmos-de-Evaluacion-de-se-ales-medicas\\Relacionado a Codigo\\Audios 61a70\\VOZ 70%\\Voz70_waveform.txt',
 ]
 
 # Leer archivos
