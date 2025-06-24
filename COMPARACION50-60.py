@@ -1,3 +1,14 @@
+#Universidad de Costa Rica
+#Escuela de Ingeniería Eléctrica
+#Proyecto Eléctrico (IE0499)
+
+#Evaluación de algoritmos de procesamiento de
+#señales para validación de instrumentación
+#biomédica
+
+#Mariano Segura (C17416)
+#Kevin Aguilar (B70131)#
+
 
 import numpy as np
 import pandas as pd
